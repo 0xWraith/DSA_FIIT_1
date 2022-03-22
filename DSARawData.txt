@@ -1,0 +1,147 @@
+com.wraith.dsa.Main
+------------------------------------------
+Test "Memory": 10 tests || dataset/1mil.txt file
+Red-Black Tree: 104 MB
+AVL Tree: 106 MB
+HashMap(Chaining): 124 MB
+HashMap(Linear): 115 MB
+------------------------------------------
+Test "Memory": 10 tests || dataset/10mil.txt file
+Red-Black Tree: 567 MB
+AVL Tree: 514 MB
+HashMap(Chaining): 1057 MB
+HashMap(Linear): 986 MB
+------------------------------------------
+Test "Memory": 10 tests || dataset/15mil.txt file
+Red-Black Tree: 773 MB
+AVL Tree: 770 MB
+HashMap(Chaining): 1693 MB
+HashMap(Linear): 1640 MB
+------------------------------------------
+Test "Memory": 10 tests || dataset/20mil.txt file
+Red-Black Tree: 1031 MB
+AVL Tree: 1033 MB
+HashMap(Chaining): 2193 MB
+HashMap(Linear): 2109 MB
+------------------------------------------
+Test "Insert": 10 tests || dataset/1mil.txt file
+Red-Black Tree: 0,781000s
+AVL Tree: 0,949000s
+HashTable(Chain): 0,243000s
+HashTable(Linear): 0,196000s
+------------------------------------------
+Test "Insert": 10 tests || dataset/10mil.txt file
+Red-Black Tree: 8,983000s
+AVL Tree: 9,823000s
+HashTable(Chain): 4,029000s
+HashTable(Linear): 4,397000s
+------------------------------------------
+Test "Insert": 10 tests || dataset/15mil.txt file
+Red-Black Tree: 13,903000s
+AVL Tree: 16,827999s
+HashTable(Chain): 7,924000s
+HashTable(Linear): 8,690000s
+------------------------------------------
+Test "Insert": 10 tests || dataset/20mil.txt file
+Red-Black Tree: 20,035999s
+AVL Tree: 21,987000s
+HashTable(Chain): 9,206000s
+HashTable(Linear): 10,668000s
+------------------------------------------
+Test "Search": 10 tests || dataset/1mil.txt file
+Red-Black Tree: 0,000025s
+AVL Tree: 0,000027s
+HashTable(Chain): 0,000012s
+HashTable(Linear): 0,107657s
+------------------------------------------
+Test "Search": 10 tests || dataset/10mil.txt file
+Red-Black Tree: 0,000030s
+AVL Tree: 0,000021s
+HashTable(Chain): 0,000012s
+HashTable(Linear): 0,000004s
+------------------------------------------
+Test "Search": 10 tests || dataset/15mil.txt file
+Red-Black Tree: 0,000023s
+AVL Tree: 0,000024s
+HashTable(Chain): 0,000008s
+HashTable(Linear): 0,000005s
+------------------------------------------
+Test "Search": 10 tests || dataset/20mil.txt file
+Red-Black Tree: 0,000029s
+AVL Tree: 0,000015s
+HashTable(Chain): 0,000004s
+HashTable(Linear): 0,000061s
+Searching non-existent element:
+------------------------------------------
+Test "Search": 10 tests || dataset/1mil.txt file
+Red-Black Tree: 0,000013s
+AVL Tree: 0,000021s
+HashTable(Chain): 0,000003s
+HashTable(Linear): 0,098320s
+------------------------------------------
+Test "Search": 10 tests || dataset/10mil.txt file
+Red-Black Tree: 0,000023s
+AVL Tree: 0,000016s
+HashTable(Chain): 0,000002s
+HashTable(Linear): 0,000000s
+------------------------------------------
+Test "Search": 10 tests || dataset/15mil.txt file
+Red-Black Tree: 0,000018s
+AVL Tree: 0,000015s
+HashTable(Chain): 0,000005s
+HashTable(Linear): 0,000001s
+------------------------------------------
+Test "Search": 10 tests || dataset/20mil.txt file
+Red-Black Tree: 0,000024s
+AVL Tree: 0,000020s
+HashTable(Chain): 0,000002s
+HashTable(Linear): 1,642255s
+------------------------------------------
+Test "Delete": 10 tests || dataset/1mil.txt file
+Red-Black Tree: 0,000080s
+AVL Tree: 0,000114s
+HashTable(Chain): 0,000062s
+HashTable(Linear): 0,007386s
+------------------------------------------
+Test "Delete": 10 tests || dataset/10mil.txt file
+Red-Black Tree: 0,000151s
+AVL Tree: 0,000178s
+HashTable(Chain): 0,000064s
+HashTable(Linear): 0,000009s
+------------------------------------------
+Test "Delete": 10 tests || dataset/15mil.txt file
+Red-Black Tree: 0,000151s
+AVL Tree: 0,000074s
+HashTable(Chain): 0,000070s
+HashTable(Linear): 0,000009s
+------------------------------------------
+Test "Delete": 10 tests || dataset/20mil.txt file
+Red-Black Tree: 0,000114s
+AVL Tree: 0,000128s
+HashTable(Chain): 0,000068s
+HashTable(Linear): 0,000005s
+Deleting non-existent element:
+------------------------------------------
+Test "Delete": 10 tests || dataset/1mil.txt file
+Red-Black Tree: 0,000039s
+AVL Tree: 0,000023s
+HashTable(Chain): 0,000063s
+HashTable(Linear): 0,000004s
+------------------------------------------
+Test "Delete": 10 tests || dataset/10mil.txt file
+Red-Black Tree: 0,000037s
+AVL Tree: 0,000029s
+HashTable(Chain): 0,000045s
+HashTable(Linear): 0,000003s
+------------------------------------------
+Test "Delete": 10 tests || dataset/15mil.txt file
+Red-Black Tree: 0,000089s
+AVL Tree: 0,000028s
+HashTable(Chain): 0,000059s
+HashTable(Linear): 0,000005s
+------------------------------------------
+Test "Delete": 10 tests || dataset/20mil.txt file
+Red-Black Tree: 0,000042s
+AVL Tree: 0,000035s
+HashTable(Chain): 0,000040s
+HashTable(Linear): 0,000005s
