@@ -401,7 +401,7 @@ public class Main
                     deleteTime[j][k] += deleteTimeReturn[j][k]/(float)deleteTests;
         }
 
-        for(int i = 0; i < 4; i++)
+        for(int i = 0; i < files.length; i++)
         {
             System.out.println("------------------------------------------");
             System.out.printf("Test \"Delete\": %d tests || %s file\n", deleteTests, files[i]);
@@ -420,10 +420,10 @@ public class Main
         int deleteTests = 10;
 
         String[] files = new String[] {
-                "dataset/1mil.txt",
-                "dataset/10mil.txt",
-                "dataset/15mil.txt",
-                "dataset/20mil.txt"
+                "dataset/1mil.txt"
+                // "dataset/10mil.txt",
+                // "dataset/15mil.txt",
+                // "dataset/20mil.txt"
         };
 
         for(String file: files) testMemory(memoryTests, file);
